@@ -1,0 +1,23 @@
+-----------------------Example  # 1------------------------
+
+if (1 > 2):
+    print("True")
+
+else:
+    print("Not True")
+
+-----------------------Example  # 2------------------------
+
+num1 = 23
+
+num2 = 30
+
+if num1 == num2:
+    print("The Value is " + num1)
+
+
+elif num1 >= num2:
+    print("The Value is greater")
+
+else:
+    print("The Value is incorrect")
