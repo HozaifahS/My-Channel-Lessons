@@ -1,0 +1,29 @@
+############ 1st example - basic tuple define and print: ##################
+
+tuple_example = ("Hello", 1, "Wow", 2, "Bye")
+
+print(tuple_example)
+
+
+
+############# 2nd Example - defining 2 tuples at the same time and then finding their lengths:  ##############
+
+tuple1, tuple2 = (1, 2, 3, 4, 5, 6, 7), ("Hello", "Bye", "Wow", "Yay")
+
+print(len(tuple1))
+print(len(tuple2))
+
+print("The length of the first tuple is: ", len(tuple1))
+print("The length of the second tuple is: ", len(tuple2))
+
+############# 3rd Example - how to add/append value into a tuple:  ###############
+
+tup1 = (1, 2, 3, 4, 5, 6, 7)
+
+tup1 = list(tup1)
+
+tup1.append(8)
+
+tup1 = tuple(tup1)
+
+print(tup1)
