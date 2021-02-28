@@ -1,0 +1,37 @@
+######## 1st Example - basic print Function: ########
+
+print("Hello World")
+
+
+######## 2nd Example - defining a variable and using it in our program:  ########
+
+var = "Hello"
+
+print(var)
+
+######## 3rd Example - defining multiple variables and using them all in one print statement: ########
+
+var1 = "Hello"
+var2 = 10
+
+print(var1 + ", I am " + str(var2) + " years old!")
+
+######## 4th Example - using a math function with variables:  ########
+
+var1 = 22
+
+var2 = 22
+
+print(var1 + var2)
+
+OR
+
+print(var1 - var2)
+
+OR 
+
+print(var1 * var2)
+
+OR 
+
+print(var1 / var2)
