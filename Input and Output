@@ -1,0 +1,21 @@
+######## Example 1 - basic input variable defined:  ########
+
+# SIDE NOTE : Always remember, whenever you define an input variable, it's automatically going to print so place it in the correct place !!
+
+ques = input("How are you feeling today?")
+
+# No need for ; print(ques) ;  :)
+
+######## Example 2 - Actually using the input variable: ########
+
+ques1 = input("What is your username: ")
+
+print("OK, " + ques2)
+
+######## Example 3 - Wrapping it sll up and creating a little code: ########
+
+ques1 = input("What is your username: ")
+ques2 = input("WHat weapon does " + que1 + " hold?")
+summary = ("Just to confirm, your username is " + que1 + " and they have a " + ques2 + ". Right? y/n)")
+
+print("OK : " + str(summary))
