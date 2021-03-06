@@ -1,0 +1,23 @@
+import turtle
+
+# Set up a basic screen to present your turtle:
+
+display = turtle.Screen()
+display.title("Test")
+display.bgcolor("black")
+display.setup(width=800, height=800)
+display.tracer()
+
+# Create a basic turtle that draws a line:
+
+t = turtle.Turtle()
+t.shape("turtle")
+t.color("green")
+t.penup()
+t.goto(-300, 0)
+t.pendown()
+t.forward(600)
+
+
+
+display.mainloop()
