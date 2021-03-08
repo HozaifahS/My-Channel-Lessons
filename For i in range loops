@@ -1,0 +1,18 @@
+
+i = 0
+x = 0
+
+for i in range(6):
+  print(x)
+  x = x + 1
+
+# You should be getting ; 1, 2, 3, 4, 5
+
+
+
+######## Example #2 ########
+
+for i in range(8):
+  print("Hello")
+
+# The console should be printing out "Hello", 8 times.
