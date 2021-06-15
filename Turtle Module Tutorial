@@ -1,0 +1,43 @@
+################ First Example - Creating 2 basic squares with turtle
+
+import turtle
+
+ty = turtle.Turtle()
+ty.color("blue")
+ty.shape("triangle")
+ty.speed(1)
+
+#ty.penup()
+ty.forward(200)
+ty.left(90)
+#ty.pendown()
+ty.forward(200)
+ty.left(90)
+ty.forward(200)
+ty.left(90)
+ty.forward(400)
+ty.right(90)
+ty.forward(200)
+ty.right(90)
+ty.forward(200)
+ty.right(90)
+ty.forward(200)
+
+ty.hideturtle()
+
+
+################ Creating a basic circle using turtle but filling it in...
+
+import turtle 
+
+t = turtle.Turtle()
+t.speed(0)
+
+r = 100
+t.fillcolor((0.2, 0.2, 0.2))
+t.begin_fill()
+
+t.pendown()
+t.circle(r)
+
+t.end_fill()
